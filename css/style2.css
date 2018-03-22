@@ -1,10 +1,12 @@
+/*
 html {
     background: #e6e9e9;
     background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 500, 221) 100%);
     -webkit-font-smoothing: antialiased;
 }
+*/
 
-body {
+/* body {
     background: #e0ffef;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
@@ -14,6 +16,52 @@ body {
     margin: 0 auto;
     max-width: 800px;
     padding: 2em 2em 1px;
+}*/
+
+body {
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 1px;
+}
+            
+
+#box1{
+    height: 500px;
+    width: 100%;
+    background-image: url(img/i1.jpg);
+    background-size: cover;
+    opacity: 0.5;
+    filter: alpha(opacity=50);/* For IE8 and earlier */
+    display: block;
+    background-attachment: fixed;
+}
+
+#box2{
+    height: 500px;
+    width: 100%;
+    background-image: url(img/i2.jpg);
+    background-size: cover;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    display: block;
+    background-attachment: fixed;
+}
+
+#box3{
+    height: 500px;
+    width: 100%;
+    background-image: url(img/i3.jpg);
+    background-size: cover;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    display: block;
+    background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -72,3 +120,5 @@ img {
     grid-template-rows: 34px 34px;
     grid-gap: 5px;   /* controls when screen size changes) */
 }
+
+ 

@@ -2,121 +2,266 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+<meta charset="utf-8">
 
   <title>Minda Aguhob</title>
   <meta name="description" content="About Minda Aguhob">
   <meta name="author" content="Minda Aguhob">
-
   <link rel="stylesheet" href="css/style2.css?v=1.0">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+    <script>
+    /* Project hover effect */   
+    $( document ).ready( function () {
+        $(".placeholder img").hover( function(e) {
+        $(this).animate({opacity: 1.0, height: "auto", width: "220px"}, 150);
+        }, function() {
+        $(this).animate({opacity: 0.5, height: "auto", width: "200px"}, 150);
+        });
+    });
+    /* end */
+
+    </script>    
+
+    <style>
+            
+body {
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 1000px;
+/*    padding: 2em 2em 1px;*/
+}
+            
+#box1 {
+    content:"";display:table;clear:both;
+    height: 50vh;
+    width: 100%;
+    background-image: url(img/ppl.jpeg);
+    background-size: cover;
+    opacity: 0.9;
+    filter: alpha(opacity=50);/* For IE8 and earlier */
+    background-attachment: fixed;
+    }
+        
+#box2{
+    content:"";display:table;clear:both;
+    height: 15vh;
+    width: 100%;
+    background-image: url(img/i2.jpg);
+    background-size: cover;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */ 
+    background-attachment: fixed;
+    }
+        
+#box3{
+    content:"";display:table;clear:both;
+    height: 15vh;
+    width: 100%;
+    background-image: url(img/i3.jpg);
+    background-size: cover;
+    opacity: 0.9;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    background-attachment: fixed;
+    }
+        
+#box4{
+    height: 50%;
+    width: 100%;
+    background-image: url(img/i2.jpg);
+    background-size: cover;
+    opacity: 0.9;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    background-attachment: fixed;
+    }
+        
+h1 {
+    font-size: 50px;
+    color: fuchsia;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;    
+    }
+
+h2 {
+    color: fuchsia;
+    margin-top: 1.3em;
+    text-align: center;
+    }
+
+h3, h4, h5, h6 {
+    color: fuchsia;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.3;
+    }
+
+p {
+    font-size: 18px;
+    color: fuchsia;
+    text-align: center;
+    font-weight: 200;
+    line-height: 1.3;
+    display: block;
+    }
+            
+b, strong {
+    font-weight: 600;
+        }
+
+a:link {
+    color: fuchsia;
+    text-decoration: none;
+    }
+
+a:visited {
+    color: fuchsia;
+    text-decoration: none;
+    }
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+    }
+
+a:active {
+    text-decoration: underline;
+    }
+
+        
+img {
+    height: 100px;
+    background: transparent;
+    margin: 1.3em auto;
+    max-width: 95%;
+    display:block;
+/*    margin:auto;*/
+    }
+
+
+img:hover {
+    color: #fff;
+    height: 150px;
+    background: transparent;
+    opacity: 0.5;
+    margin: 1.3em auto;
+    max-width: 95%;
+    display:block;
+    margin:auto;
+    }
+        
+.earth {
+    height: 300px;
+    width: 50%;
+    }
+
+    </style>
 </head>
 
-<div id="header">
-    <div id="logo"></div>
-    <div id="navigation"></div>
-
-    
-    
-<div id="article">
-    <h1 style="text-align: center"><a href="http://www.linkedin.com/in/maguhob">Minda Aguhob, EdM</a></h1>
-    
-    <p style="text-align: center"> I use <a href="https://vytalityhealth.com">technology</a> to <a href="http://www.twitter.com/nerdfox">connect</a> passionate people with <a href="http://www.loveperforms.com">purpose</a>.</p>
-
-    <h1>Enabling <a href="https://medium.com/@Minan">wisdom</a> with <a href="quotes.html">technology.</a></h1>
-                
-    <p>I remember connecting with people on text-only internet relay chat (IRC) for the first time, writing *whatever* I thought. To speak without a filter anonymously had not been possible til then. It was addictive. But as my IRC chats and Geocities web site turned into Facebook, I see unfiltered thoughts bringing us closer -- and driving us apart, too. So, I ask: How can technology connect humans better, online and in person?</p>
-
-    
-    
-    <h2>A caring, connected world.  </h2>
-    My mission is now about creating a caring, global community assisted by technology and human wisdom.
-
-</div>    
-
-    <div class="earth">
-    
-            <img src="img/earth.svg" alt="earth">
-
+<body>
+<div id="box1">        
+   <div style="background-color:rgba(0, 0, 0, 0.75);">
+       <div style="background-attachment: fixed;"></div><a href="index2.html">
+       <br />
+       <h1 style="text-align: center">Minda Aguhob</h1></a>
+       <h3>Humane technologist</h3>
+       <br />
     </div>
-    
-    <div class="photos">
+        <div class="earth"><img src="img/earth.svg" alt="earth" height="500" width="1000"></div>
 
-        <a href="https://vytalityhealth.com" id=photos>></a>
-        <div class="a" style=" background-image:url(img/2.png);"></div></div>
+        <div style="background-color:rgba(0,0,0, 0.95);">
+            <p><br />How can technology connect humans better?</p>
+            <a href="https://www.elephantvoices.org/elephant-sense-a-sociality-4/elephants-are-socially-complex.html"><img src="img/elephant.svg" alt="elephant"></a>&emsp;    
+            <a href="img/Minda_Aguhob%20CV%20Feb18_DataSci.pdf"><img src="img/cv.svg" alt="cv"></a>
+            <a href="mailto:loveperforms@gmail.com"><img src="img/email.svg" alt="email"></a>
+            <br /></div>
+
+<!--<div id="box2" ></div>-->
+    <div style="background-color:rgba(255,255,255, 0.7);">
+        <br />
+        <br />
+        <table style="margin: 0px auto;">
+        <tr>
+
+            <th>
+                <div class="placeholder"><a href="https://vytality.co"><img src="img/vytality.png" alt="vytality"></a>
+                </div>
+            </th>
+        
+            <th>
+                <a href="http://loveperforms.com"><img src="img/loveperforms.png" alt="love performs"></a>
+            </th>
+        
+            <th>
+                <a href="http://www.sfsdatascience.com/quotes.html"><img src="img/p2.png" alt="quotes"></a>
+            </th>
+        
+            <th>
+                <a href="http://minan.thehiddenweb.net/chakras"><img src="img/p1.png" alt="chakras"></a>
+            </th>
+        
+            <th>
+                <a href="http://elliotrec.herokuapp.com"><img src="img/p3.png" alt="elliott rec"></a>
+            </th>
+        
+            <th>
+                <a href="http://minan.thehiddenweb.net/email/"><img src="img/p4.png" alt="email validator"></a>
+            </th>
+            </tr>
+        </table>
+                                     
+<br /><br />
     </div>
+<!--</div>-->
+                                
+<!--<div id="box3">-->
+    <div style="background-color:rgba(255,255,255, 0.01);">         
+        <div style="background-color:rgba(0,0,0, 0.75);">
+        <br />
+        <h1>Tools</h1>
+            <p><a href="http://www.linkedin.com/in/maguhob"><img src="img/elephant.svg" alt="elephant"></a>
+            </p>
+            <p>PROGRAMMING & WEB DEV: &emsp; Python, Javascript, jQuery, NodeJS, Angular
+            </p> 
+            <p>DATA ANALYTICS: &emsp; SPSS, SQL, R, Pandas, Scipy, MongoDB, Hadoop, Spark, MapReduce 
+            </p>
+            <p>MACHINE LEARNING & STATISTICS: &emsp;  Linear and Logistic Regression, 
+                <br />Hierarchical Linear Modeling, Naive Bayes, KMeans, Neural Networks, SVM, <br />Random Forest, Clustering, NLP, Tensorflow, Time Series
+            </p> 
+            <br />
+        </div>
+    </div>
+</div>
     
-    <h2>Missions I've launched</h2>
-    <p><a href="https://vytalityhealth.com">Vytality Health</a>. Be a hero in someone's health story.
-        <br /><a href="http://loveperforms.com">Love Performs</a>. Love in action.</p>
+<div id="box4">      
+    <div style="background-color:rgba(0,0,0, 0.7);">
+        <br />
+        <h1>Launching</h1>
         
-    
-    
-    <br />
-    <h1>In pursuit of virtuosity</h1>
-    <h2>Hobbies. "Just about about any rigorous training changes how you see the world."</h2>
-    <p>When I was sixteen, I told my parents that I would apply to music school in NYC. This was because of two amazing summers I spent at a classical music festival in the south, living like a piano conservatory student.</p>
-    <p>I didn't end up becoming a classical musician. But I realized that what inspired me was hearing fellow musicians in concert, then walking out into the night and feeling the sky move over the earth. The daily things would fall away, as I was moved by the rhythm of the universe and the people who had reached for it during that hour or so.</p>
-    
-    <h2>Live performance</h2> While my <a href="https://youtu.be/elII1tx2pzg">young concert pianist</a> days are over, I'm studying tabla with the <a href="https://aacm.org/nilan-chaudhuri-bio/">son of a renown master.</a> I'm always down to see a show, from SFJazzCenter, San Francisco Symphony to Revolution Cafe.
-    I have also organized world-class live events like <a href="https://web.archive.org/web/20150322140635/http://tedxbushwick.com:80/">TEDxBushwick.</a>
-    <br />
-    <br /><iframe width="560" height="315" src="https://www.youtube.com/embed/elII1tx2pzg"></iframe>
-    
-    
-    <h2>Painting</h2> I am completing a series of 50 paintings. This is painting #1.
-    <br />
-    <img src = "img/painting.jpg" style="width:300px;" alt="painting">
-    <h4>She is the light When ego is quiet Of unbearable compassion | She is the sound Of everyone around Of everything that is still | She is the light When ego is quiet Of unbearable compassion | She is she.</h4>
-
-
-    <br />
-    <h2>Tech</h2>
-    <p>My path has taken me from psychology to technology, with the heart of an artist. It is super fun to build stuff!</p> 
-    <p>I'm learning data science at The Data Incubator and web development and hardware at MEDA's Mission Techies program. Both courses are a chance to meet people I might otherwise have never met.  MEDA (Mission Economic Development Agency) is a nonprofit in SF with smart, caring counselors who help the community with job searches, business, housing, and finances. It's an incredible place that feels like home.
-    </p>
-    <p>While working alone is very meaningful - with other people, it's a new, amazing level of meaning. And humbling. I suffered a brain injury several years ago that causes me to skip over and miss characters as I look and type. Helps to have people look and fix my errors!</p> 
-<br />
-    <h2>What's next: Writing and Travel</h2> In whatever I do, I strive to see and know the larger picture. My <a href="http://medium.com/@Minan">Medium blog</a>, <a href="http://maguhob.wordpress.com">Wordpress blog</a> and <a href="http://bit.ly/loveperforms">YouTube</a> are about entrepreneurship, politics, and life. I have lots to write about as a global community builder. My digital health startup <a href="http://vytality.co">Vytality Health</a> serves families separated by an ocean; so, I am traveling to learn about them. And, I love having an excuse to visit some amazing places:
-    <ol>
-        <li>Manila, Philippines</li>
-        <li>Auckland, Australia</li>
-        <li>Shanghai, China</li>
-        <li>Calcutta, India</li>
-        <li>Dubai, UAE</li>
-        <li>Cairo, Egypt</li>
-        <li>Seoul, Korea</li>
-        <li>Rejkavic, Iceland</li>
-        <li>Geneva, Switzerland</li>
-        <li>London, England</li>
+        <p><a href="https://vytality.co"><img src = "img/vytality.png" alt = "<3"></a>
+        </p>
+            <p style="color: aliceblue"><a href="https://vytality.co" style="color: aliceblue">Vytality Health</a> transforms trusted friends and family into excited supporters of health needs. 
+                <br />We use crowd behavior to transform local health & support. Launching December 2018.
+            </p>
         
-    </ol>
+        <p><a href="http://loveperforms.com" style="color: aliceblue"><img src = "img/loveperforms.png" alt = "<3"></a>
+        </p>
+            <p style="color: aliceblue"><a href="https://loveperforms.com" style="color: aliceblue">Love Performs</a> is a web platform for social innovators, enabled by  human wisdom.
+                <br />Our mission is to synergize our collective loving wisdom for high impact.
+            </p>
+<br /><br />
 
-    <img src="img/sushi.png" style="width:300px;" alt="sushi">
-    <h2>I'm hungry</h2> Not just for life; for good food, too. Yet, I hate preparing food. As an organizer at Burning Man, I cried in the kitchen when asked to make meals. I cried and made grilled cheese sandwiches, while everyone smiled eating them. Anyone who loves me will make these for me:
-    <ul>
-        <li>Sushi</li>
-        <li>Ayurvedic meals of any kind</li>
-        <li>Baked potatoes</li>
-        <li>Filipino food that's vegetarian</li>
-        <li>Salads that taste good</li>
-        <li>The Impossible Burger (vegetarian looks like real meat - it even bleeds!)</li>
-        <li>Buttercup recipe: Cupcakes</li>
-        <li>Buttercup recipe: Vanilla pudding</li>
-        <li>Red velvet anything</li>
-        <li>Anything my mom makes</li>
-    </ul>
-    <div id="footer"></div>
-
-    <p>BTW, say hi to my family's pug, Sophie Aguhob!   </p>
-    <img src="img/me.jpg" style="width:300px;" alt="minda+sophie the pug">
-<br />    
-    <h6 style="text-align: center;">&copy; 2018 <a href="http://www.linkedin.com/in/maguhob">Minda Aguhob</a></h6>
-<br />
-    
-  <script src="js/scripts.js"></script>
+        <h4 style="text-align: center;">&copy; 2018 <a href="http://www.linkedin.com/in/maguhob">Minda Aguhob</a></h4>
+            <br />    
+    </div>
+</div>
+<br /><br />
 </body>
 </html>
